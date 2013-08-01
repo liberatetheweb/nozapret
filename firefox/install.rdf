@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+ 
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>ext@nozapret.org</em:id>
+    <em:version>0.1</em:version>
+    <em:type>2</em:type>
+
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>17.*</em:minVersion>
+        <em:maxVersion>26.0</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    
+    <em:name>NoZapret</em:name>
+    <em:description>Bypass Russian internet censorship.</em:description>
+    <em:creator>Liberate the Web</em:creator>
+    <em:homepageURL>http://nozapret.org/ext</em:homepageURL>
+  	<em:bootstrap>true</em:bootstrap>
+    <em:localized>
+      <Description>
+        <em:locale>en-US</em:locale>
+        <em:name>NoZapret</em:name>
+        <em:description>Bypass Russian internet censorship.</em:description>
+        <em:creator>Liberate the Web</em:creator>
+        <em:homepageURL>http://nozapret.org/ext</em:homepageURL>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>ru-RU</em:locale>
+        <em:name>NoZapret</em:name>
+        <em:description>Расширение, позволяющее обойти интернет-цензуру в России.</em:description>
+        <em:creator>Liberate the Web</em:creator>
+        <em:homepageURL>http://nozapret.org/ext</em:homepageURL>
+      </Description>
+    </em:localized>
+  </Description>     
+</RDF>

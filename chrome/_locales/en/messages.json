@@ -1,0 +1,6 @@
+{
+  "appDesc": {
+    "message": "Bypass Russian internet censorship.", 
+    "description":"This extension allow you to bypass internet censorship in Russia. NoZapret downloads a blacklist of Great Firewall of Russia and open websites from that list through proxy."
+  }
+}

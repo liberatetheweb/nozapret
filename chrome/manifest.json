@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "default_locale": "en",
+  "name": "NoZapret",
+  "description": "__MSG_appDesc__",
+  "version": "0.1",
+  "homepage_url": "http://nozapret.org/ext",
+
+  "permissions": [
+    "proxy",
+    "alarms",
+    "http://api.antizapret.info/",
+    "http://api.proxy-ip-list.com/"
+  ],
+  "background": {
+    "scripts": [
+      "nozapret.js"
+    ]
+  }
+}
